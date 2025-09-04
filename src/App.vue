@@ -1,6 +1,6 @@
 <template>
-  <v-container class="ma-0 pa-0 all-container">
-    <v-row no-gutters class="all-row">
+  <v-container class="ma-0 pa-0 top-container">
+    <v-row no-gutters class="top-row">
       <v-col cols="12" class="header-wrapper">
         <Header />
       </v-col>
@@ -21,11 +21,13 @@ import Search from "./components/mainPanes/Search.vue";
 </script>
 
 <style scoped>
-.all-container {
-  max-width: 100%;
+.v-container {
+  max-width: none;
+}
+.top-container {
   height: 100vh;
 }
-.all-row {
+.top-row {
   max-width: 100%;
   height: 100vh;
 }
