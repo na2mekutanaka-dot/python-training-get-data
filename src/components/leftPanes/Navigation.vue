@@ -6,6 +6,7 @@
         <v-row no-gutters class="flex-column w-100 h-100 px-4">
           <v-col cols="12" class="w-100">
             <v-btn class="serch-btn w-100">検索</v-btn>
+            <v-btn class="serch-btn w-100 mt-4">登録</v-btn>
           </v-col>
         </v-row>
       </v-col>
