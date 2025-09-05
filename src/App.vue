@@ -1,10 +1,10 @@
 <template>
   <v-container class="ma-0 pa-0 top-container">
     <v-row no-gutters class="top-row">
-      <v-col cols="12" class="header-wrapper">
+      <v-col cols="12" class="header-wrapper main-background-color">
         <Header />
       </v-col>
-      <v-col cols="2" class="navigation-wrapper">
+      <v-col cols="2" class="navigation-wrapper sub-sub-background-color">
         <Navigation />
       </v-col>
       <v-col cols="10" class="contents-wrapper">
